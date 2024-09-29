@@ -1,0 +1,248 @@
+<!-- src/utils/svg-icon-mixin.pug--><!DOCTYPE html>
+<html lang="ru"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Колекция Природных Артефактов		</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- link(rel="stylesheet" href="css/swiper-bundle.min.css")-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"></head><body> 
+    <!-- Шапка-->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapp">
+          <svg class="logo-class">
+            <use xlink:href="../img/svg/sprite.svg#logo"/>
+          </svg>
+          <menu class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a class="link" href="/">Главная</a></li>
+              <li class="menu__item"><a class="link" href="#">О нас</a></li>
+              <li class="menu__item"><a class="link" href="#">Преимущества</a></li>
+              <li class="menu__item"><a class="link" href="#">Контакты</a></li>
+            </ul>
+          </menu>
+          <div class="box">
+            <svg class="icons-header">
+              <use xlink:href="../img/svg/sprite.svg#search"/>
+            </svg>
+            <svg class="icons-header">
+              <use xlink:href="../img/svg/sprite.svg#log-in"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- контент-->
+    <main class="content">
+      <section class="hero">
+        <div class="container">
+          <div class="row"> 
+            <div class="col-12">
+              <h1 class="hero__title">Крупнейшая коллекция природных артефактов</h1>
+              <p class="hero__text">
+                 Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример европейского типа политической и социальной культуры.</p><a class="link link_green" href="#">Исследовать
+                <svg class="arrow1-class">
+                  <use xlink:href="../img/svg/sprite.svg#Arrow1"/>
+                </svg></a>
+              <!-- a.hero-link(href="#") Исследовать
+              +svg-icon('Arrow1', 'arrow1-class')
+              -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="swipers">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"> 
+                    <div class="card">
+                      <div class="top-sec"><img class="top-sec__img" src="../img/fig1.png" alt="fig1.png">
+                        <div class="number"> 
+                          <spam class="number__item">2.4</spam>
+                        </div>
+                      </div>
+                      <div class="but-sec">
+                        <div class="but-sec__wrapp">
+                          <h3 class="but-sec__title">Fig. 1 (plant)</h3>
+                          <p class="but-sec__text">Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                        </div>
+                        <button class="button button_transparent">Подробнее</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="card">
+                      <div class="top-sec"><img class="top-sec__img" src="../img/fig2.png" alt="fig2.png">
+                        <div class="number"> 
+                          <spam class="number__item">3.1</spam>
+                        </div>
+                      </div>
+                      <div class="but-sec">
+                        <div class="but-sec__wrapp">
+                          <h3 class="but-sec__title">Fig. 2 (flower)</h3>
+                          <p class="but-sec__text">Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.</p>
+                        </div>
+                        <button class="button button_transparent">Подробнее</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="card">
+                      <div class="top-sec"><img class="top-sec__img" src="../img/fig3.png" alt="fig3.png">
+                        <div class="number"> 
+                          <spam class="number__item">1.2</spam>
+                        </div>
+                      </div>
+                      <div class="but-sec">
+                        <div class="but-sec__wrapp">
+                          <h3 class="but-sec__title">Fig. 3 (leaf)</h3>
+                          <p class="but-sec__text">Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами себе для работы.</p>
+                        </div>
+                        <button class="button button_transparent">Подробнее</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="card">
+                      <div class="top-sec"><img class="top-sec__img" src="../img/fig4.png" alt="fig4.png">
+                        <div class="number"> 
+                          <spam class="number__item">1.4</spam>
+                        </div>
+                      </div>
+                      <div class="but-sec">
+                        <div class="but-sec__wrapp">
+                          <h3 class="but-sec__title">Fig. 4 (wood)</h3>
+                          <p class="but-sec__text">Базовый вектор развития не даёт нам иного выбора, кроме определения новых предложений.</p>
+                        </div>
+                        <button class="button button_transparent">Подробнее</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="card">
+                      <div class="top-sec"><img class="top-sec__img" src="../img/fig1.png" alt="fig1.png">
+                        <div class="number"> 
+                          <spam class="number__item">2.4</spam>
+                        </div>
+                      </div>
+                      <div class="but-sec">
+                        <div class="but-sec__wrapp">
+                          <h3 class="but-sec__title">Fig. 1 (plant)</h3>
+                          <p class="but-sec__text">Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                        </div>
+                        <button class="button button_transparent">Подробнее</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="card">
+                      <div class="top-sec"><img class="top-sec__img" src="../img/fig2.png" alt="fig2.png">
+                        <div class="number"> 
+                          <spam class="number__item">3.1</spam>
+                        </div>
+                      </div>
+                      <div class="but-sec">
+                        <div class="but-sec__wrapp">
+                          <h3 class="but-sec__title">Fig. 2 (flower)</h3>
+                          <p class="but-sec__text">Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.</p>
+                        </div>
+                        <button class="button button_transparent">Подробнее</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-controlls">
+                  <svg class="prev-class">
+                    <use xlink:href="../img/svg/sprite.svg#prev"/>
+                  </svg>
+                  <div class="swiper-pagination"></div>
+                  <svg class="next-class">
+                    <use xlink:href="../img/svg/sprite.svg#next"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new-artifacts">
+        <div class="container">
+          <h1 class="new-artifacts__title">Новые артефакты 	</h1>
+          <div class="row"> 
+            <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xl-9">
+              <div class="new-artifacts__images"><img class="artifacts-img" src="img/about-card.png" alt="about-card.png">
+                <div class="swipe"><span class="swipe__text">Swipe to see more</span>
+                  <svg class="swipe__arrow">
+                    <use xlink:href="../img/svg/sprite.svg#swipe-arrow"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xl-3">
+              <div class="new-artifacts__info">
+                <h2 class="tile-info">Kurische Nehrung 24</h2>
+                <p class="info">Вот вам яркий пример современных тенденций - начало повседневной работы по формированию позиции выявляет срочную потребность методов управления процессами. </p>
+                <p class="info">Есть над чем задуматься: представители современных социальных резервов своевременно верифицированы.</p><a class="link link_dark" href="#">Читать далее
+                  <svg class="arrow1-class">
+                    <use xlink:href="../img/svg/sprite.svg#Arrow1"/>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="help-project">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h1 class="help-project__title">Помочь проекту</h1>
+              <p class="help-project__text help-project__text_none">
+                 Равным образом, экономическая повестка сегодняшнего дня не даёт нам иного выбора, кроме определения прогресса профессионального сообщества. Как принято считать, элементы политического процесса рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. </p>
+              <form class="help-project__form" action="form">
+                <input class="input" type="text" placeholder="Имя">
+                <input class="input" type="text" placeholder="Email">
+                <button class="button button_green">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Футер-->
+    <footer class="footer"><a class="soc-link" href="#">
+        <svg class="soc-class">
+          <use xlink:href="../img/svg/sprite.svg#youtube"/>
+        </svg></a><a class="soc-link" href="#">
+        <svg class="soc-class">
+          <use xlink:href="../img/svg/sprite.svg#inst"/>
+        </svg></a><a class="soc-link" href="#">
+        <svg class="soc-class">
+          <use xlink:href="../img/svg/sprite.svg#facebook"/>
+        </svg></a><a class="soc-link" href="#">
+        <svg class="soc-class">
+          <use xlink:href="../img/svg/sprite.svg#twit"/>
+        </svg></a></footer>
+    <!-- скрипты-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- script(src="js/swiper-bundle.js")-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
